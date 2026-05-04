@@ -6,6 +6,7 @@
     <meta name="description" content="Portfolio de Nathan GAENA - Développeur Web & Mobile Junior Full-Stack. Spécialisé en React, NestJS, NextJS, PHP et JavaScript.">
     <meta name="keywords" content="développeur web, développeur mobile, full-stack, React, NestJS, NextJS, PHP, JavaScript">
     <meta name="author" content="Nathan GAENA">
+    <meta name="google-site-verification" content="6Ul3JgKovCKH7A0BV4mdTLkd-AteY-21RrnKQZnGAEY" />
     <title>Nathan GAENA - Développeur Web & Mobile</title>
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -421,6 +422,16 @@
         </div>
     </footer>
 
+    <script>
+        fetch('./personSchema.json')
+            .then(response => response.json())
+            .then(data => {
+            const script = document.createElement('script');
+            script.type = 'application/ld+json';
+            script.text = JSON.stringify(data);
+            document.head.appendChild(script);
+        });
+    </script>
     <script type="module" src="assets/js/jquery-3.7.1.min.js"></script>
     <script type="module" src="assets/js/main.js"></script>
 </body>
