@@ -2,12 +2,14 @@
     "@context": "https://schema.org",
     "@type": "Person",
     "name": "Nathan B GAENA",
-    "jobTitle": "Full Stack Developer & Tech Entrepreneur & Fondateur de Ziyoo",
-    "url": "",
+    "jobTitle": "Full Stack Dévelopeur & Tech Entrepreneur & Fondateur de Ziyoo",
+    "url": "https://nathanbgaena.github.io/Portfolio/",
     "sameAs": [
       "https://github.com/NathanBGAENA",
       "https://www.linkedin.com/in/nathanbgaena",
-      "https://nathanbgaena.github.io/Portfolio/"
+      "https://kimiacg.vercel.app/",
+      "https://whatsapp.com/channel/0029VbCPWeD3gvWQpyuDqT2l",
+      "https://www.facebook.com/profile.php?id=61589317089171"
     ],
     "address": {
       "@type": "nathanbgaena@gmail.com",
